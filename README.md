@@ -1,5 +1,7 @@
 # Skills Framework for Autonomous Agentic Google Workspace Orchestration
 
+![Cover](images/email_reply_screenshot.png)
+
 A comprehensive Python-based framework for integrating Google Workspace (Gmail & Calendar) with autonomous AI agent systems. This project demonstrates production-ready patterns for secure authentication, modular skill design, and orchestration of multi-step workflows.
 
 ## Overview
