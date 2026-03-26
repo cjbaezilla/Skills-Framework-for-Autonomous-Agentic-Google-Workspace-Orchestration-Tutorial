@@ -1,6 +1,8 @@
 # Beginner's Automation Foundations: An OpenClaw Compatible Skills Framework for Autonomous Agentic Google Workspace Orchestration in Python
 
-![Cover](images/email_reply_screenshot.png)
+![Cover](images/1.jpg)
+
+![Cover 2](images/email_reply_screenshot.png)
 
 - **Project Repository:** https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial
 
@@ -10,7 +12,7 @@ This project includes a fully configured Google Workspace integration that allow
 
 The integration supports four main operations: sending emails, reading emails, replying to emails, and creating calendar events. All functionality is built on top of Google's official APIs and uses OAuth 2.0 for secure authentication.
 
-## Introduction: Understanding Agentic Orchestration
+## Understanding Agentic Orchestration
 
 Agentic orchestration represents a fundamental shift in how software systems interact with the world. Rather than executing static, predetermined scripts, orchestrated systems deploy specialized AI agents that can understand intent, plan actions, and coordinate multiple capabilities to achieve complex goals. In the OpenCode ecosystem, this manifests as a sophisticated architecture where autonomous agents possess distinct personalities, tools, and permissions, working independently or collaboratively to complete multi-step workflows.
 
@@ -21,6 +23,8 @@ This capability embodies what the broader open source community calls the "openc
 The integration operates as four distinct skills within the OpenCode system, each representing a discrete capability that agents can discover and invoke. This skill-based architecture creates a modular, extensible framework where new functionalities can be added without modifying existing agents. The skills themselves follow a consistent structure: they declare their purpose, define required and optional parameters, provide usage examples, and reference detailed documentation. This self-describing nature allows agents to understand what each skill does and when to use it, enabling dynamic capability selection based on the task at hand.
 
 Understanding this system requires appreciating the layered architecture that makes autonomous operation possible. At the foundation lies the `google_operations.py` library, which handles the intricate details of OAuth 2.0 authentication, token refresh, and direct API calls to Google's services. Above that sit four command-line scripts that provide human-friendly interfaces for each capability. At the highest level, skills wrap these scripts with metadata that machines can parse, creating a bridge between natural language understanding and concrete API actions. This separation of concerns ensures that each layer can evolve independently while maintaining clear contracts between them.
+
+![The OpenClaw Vision: From Tools to Autonomous Actors](images/2.jpg)
 
 ### The OpenClaw Vision: From Tools to Autonomous Actors
 
@@ -45,6 +49,8 @@ The intelligent reply agent showcases a different orchestration pattern: monitor
 These workflows also highlight the importance of authentication design for long-running operations. The article emphasizes that publishing the OAuth app is critical for agents that need to run without manual re-authentication. Without publishing, refresh tokens expire after seven days, breaking any autonomous process that spans more than a week. This constraint reveals a deeper principle: orchestrated systems often require persistent access to external services, and the authentication mechanisms must support long-lived sessions. The seven-day limit during testing serves as a safeguard against unauthorized persistent access, but for productive autonomous agents, publishing becomes necessary.
 
 The skill architecture enables these orchestrations through a discovery and invocation mechanism. An agent can query what skills are available, read their specifications, and dynamically decide which ones to use. This is not hard-coded behavior but rather runtime decision-making based on the agent's understanding of its capabilities and the task requirements. When an agent encounters a task it cannot complete with available skills, it can signal this limitation clearly rather than failing ambiguously. This transparency is essential for building trust in agentic systems.
+
+![Authentication as Foundation: OAuth 2.0 Deep Dive](images/3.jpg)
 
 ### Authentication as Foundation: OAuth 2.0 Deep Dive
 
