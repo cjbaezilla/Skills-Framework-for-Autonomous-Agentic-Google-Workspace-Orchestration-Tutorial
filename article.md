@@ -1,5 +1,9 @@
 # Beginner's Automation Foundations: An OpenClaw Compatible Skills Framework for Autonomous Agentic Google Workspace Orchestration in Python
 
+![Cover](images/email_reply_screenshot.png)
+
+- **Project Repository:** https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial
+
 ## Introduction: From Manual Tasks to Autonomous Orchestration
 
 This project includes a fully configured Google Workspace integration that allows you to manage emails and calendar events programmatically. The system is built with security and ease of use in mind, providing both a core library for developers and ready-to-use command line tools for everyday tasks.
