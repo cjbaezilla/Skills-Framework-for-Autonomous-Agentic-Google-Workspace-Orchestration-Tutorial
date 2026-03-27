@@ -6,6 +6,15 @@
 
 A comprehensive Python-based framework for integrating Google Workspace (Gmail & Calendar) with autonomous AI agent systems. This project demonstrates production-ready patterns for secure authentication, modular skill design, and orchestration of multi-step workflows.
 
+## Read More
+
+1. 📢 **LinkedIn announcement**: https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB
+2. 📖 **Read the article directly on LinkedIn**: https://www.linkedin.com/pulse/beginners-automation-foundations-openclaw-compatible-baeza-negroni-6fadf
+3. 🐦 **X/Twitter Announcement**: https://x.com/cjbaezilla/status/2037174673184534574
+4. 🧩 **Project Repository**: https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial
+5. 🔍 **Browse the source**:
+   [article.md](./article.md)
+
 ## Overview
 
 This repository provides a fully configured Google Workspace integration that enables AI agents to manage emails and calendar events programmatically. Built with security and extensibility in mind, it features:
